@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Access Example</title>
+</head>
+<body>
+
+<button id="enableCamera">Enable Camera</button>
+<button id="disableCamera" style="display: none;">Disable Camera</button>
+
+<script>
+let cameraStream;
+let cameraWindow;
+
+document.getElementById('enableCamera').addEventListener('click', enableCamera);
+document.getElementById('disableCamera').addEventListener('click', disableCamera);
+
+async function enableCamera() {
+    try {
+        // Get user media (camera and microphone)
+        cameraStream = await navigator.mediaDevices.getUserMedia({ video: true });
+
+        // Open a new window with the camera stream
+        cameraWindow = window.open('', 'Camera Feed', 'width=640,height=480');
+        cameraWindow.document.body.innerHTML = '<video id="cameraFeed" width="100%" height="100%" autoplay playsinline></video>';
+
+        // Display the camera stream in the new window
+        const videoElement = cameraWindow.document.getElementById('cameraFeed');
+        videoElement.srcObject = cameraStream;
+
+        // Toggle button visibility
+        document.getElementById('enableCamera').style.display = 'none';
+        document.getElementById('disableCamera').style.display = 'inline-block';
+    } catch (error) {
+        console.error('Error accessing camera:', error);
+    }
+}
+
+function disableCamera() {
+    // Stop the camera stream
+    if (cameraStream) {
+        const tracks = cameraStream.getTracks();
+        tracks.forEach(track => track.stop());
+        cameraStream = null;
+
+        // Close the camera window
+        if (cameraWindow) {
+            cameraWindow.close();
+        }
+
+        // Toggle button visibility
+        document.getElementById('enableCamera').style.display = 'inline-block';
+        document.getElementById('disableCamera').style.display = 'none';
+    }
+}
+</script>
+
+</body>
+</html>

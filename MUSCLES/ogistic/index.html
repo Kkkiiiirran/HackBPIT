@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>GYMSO</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <div id="mySidepanel" class="sidepanel">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+         <a href="index.html">Home </a>
+         <a href="#about">About</a>
+      </div>
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                     <div class="logo">
+                        <h1>GYMSO</h1>
+                     </div>
+                  </div>
+                  <div class="col-md-8 col-sm-8">
+                     <div class="right_bottun">
+                        <button class="openbtn" onclick="openNav()"><img src="images/menu_icon.png" alt="#"/> </button> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main">
+         <div id="banner1" class="carousel slide banner_slide" data-ride="carousel">
+             <ol class="carousel-indicators">
+                 <li data-target="#banner1" data-slide-to="0" class="active"></li>
+                 <li data-target="#banner1" data-slide-to="1"></li>
+                 <li data-target="#banner1" data-slide-to="2"></li>
+             </ol>
+             <div class="carousel-inner">
+                 <!-- Slide 1 -->
+                 <div class="carousel-item active">
+                     <div class="container-fluid">
+                         <div class="carousel-caption">
+                             <div class="row">
+                                 <div class="col-md-7 col-lg-5">
+                                     <div class="text-bg">
+                                         <h1>Customized Muscle Gain Plans</h1>
+                                         <span>Tell us about your muscle gain goals, and we'll tailor a diet plan for you.</span>
+                                         <a class="read_more" href="#">Get Started</a>
+                                     </div>
+                                 </div>
+                                 <div class="col-md-12 col-lg-7">
+                                     <div class="row">
+                                         <div class="col-md-6">
+                                             <div class="ban_track">
+                                                 <figure><img src="images/muscle.svg" alt="#"/></figure>
+                                             </div>
+                                         </div>
+                                         <div class="col-md-6">
+                                             <form class="transfot">
+                                                 <div class="col-md-12">
+                                                     <span>Select Your Muscle Gain Goal</span>
+                                                     <select class="transfot_form" name="muscle_goal">
+                                                         <option value="lean_mass">Lean Mass</option>
+                                                         <option value="bulking">Bulking</option>
+                                                         <option value="definition">Definition</option>
+                                                     </select>
+                                                 </div>
+                                                 <div class="col-md-12">
+                                                     <span>Your Current Weight (lbs)</span>
+                                                     <input class="transfot_form" placeholder="Enter your weight" type="text" name="current_weight">
+                                                 </div>
+                                                 <div class="col-md-12">
+                                                     <span>Target Weight (lbs)</span>
+                                                     <input class="transfot_form" placeholder="Enter your target weight" type="text" name="target_weight">
+                                                 </div>
+                                                 <div class="col-md-12">
+                                                     <span>Diet Preferences</span>
+                                                     <textarea class="transfot_form" placeholder="Enter any specific dietary preferences"></textarea>
+                                                 </div>
+                                                 <div class="col-md-12">
+                                                     <button class="get_now">Get Customized Plan</button>
+                                                 </div>
+                                             </form>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <!-- Additional Slides if needed -->
+                 <!-- Slide 2 -->
+                 <!-- Slide 3 -->
+             </div>
+             <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+                 <i class="fa fa-angle-left" aria-hidden="true"></i>
+             </a>
+             <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+                 <i class="fa fa-angle-right" aria-hidden="true"></i>
+             </a>
+         </div>
+     </section>
+           <!-- end banner -->
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script>
+         function openNav() {
+           document.getElementById("mySidepanel").style.width = "250px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidepanel").style.width = "0";
+         }
+      </script>
+   </body>
+</html>
+
