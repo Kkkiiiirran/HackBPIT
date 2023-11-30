@@ -15,6 +15,8 @@ Develop a **comprehensive** and **gamified home gym solution** for individuals f
 3) **LLM Gymbro**: Get advice and answers to any kind of queries related to workout, gym, health and fitness that you usually get from people at the gym from our personalized LLM.
 4) 
 (<img width="600" alt="Screenshot 2023-11-30 101503" src=https://github.com/Cappybara12/POLYGON-NFT-MARKETPLACE/assets/122734275/9c9e52b2-85f2-43c3-a9b3-3d047a67f2e4>)
+5) Built-In-Dietician
+6) <img width="600" alt="image" src="https://github.com/Cappybara12/GYMSO2/assets/122734275/62e7f371-e56f-4e00-8bbb-6a4c09691274">
 
 ## Polygon NFT Marketplace
 
