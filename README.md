@@ -2,13 +2,22 @@
 
 ## Problem Statement
 Develop a **comprehensive** and **gamified home gym solution** for individuals facing barriers like **social anxiety**, **parental restrictions**, **financial limitations** and **time limitations** ensuring they can access quality fitness experiences at home using by also combining **blockchain** with **VR**.
-
 ## Features
 1) **Polygon Blockchain NFT MARKETPLACE & VR Gym**: The site provides a VR Gym so you get an authentic experience. You can see your friends and what they are doing in the form of 3D avatars inside the virtual gym. Users can buy skins for their characters and different backgrounds in the VR world using NFTs from Polygon-based NFT marketplaces.
 
 2) **Computer Vision Posture Trainer**: The site provides a computer vision trainer that properly evaluates if your exercise form is correct or not, it helps you correct it and only counts a rep if the form is right.
 
 3) **LLM Gymbro**: Get advice and answers to any kind of queries related to workout, gym, health and fitness that you usually get from people at the gym from our personalized LLM.
+   
+## Polygon NFT Marketplace
+
+For our NFT Marketplace built on the Polygon blockchain, we offer exciting features:
+
+- **Sell Digital Assets:** List and sell your digital fitness assets securely on the blockchain.
+- **Create Dashboard:** Access a personalized dashboard to manage your listed digital assets, track sales, and more.
+- **My Digital Assets:** Easily view and manage the digital assets you own through a dedicated section.
+
+To explore our NFT Marketplace and its source code, visit our [Polygon NFT Marketplace Repository](https://github.com/Cappybara12/POLYGON-NFT-MARKETPLACE).
 
 ## Tech Stack
 Python, Unity, Blender, HTML, CSS, JS
