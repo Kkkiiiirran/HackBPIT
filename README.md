@@ -13,6 +13,7 @@ Develop a **comprehensive** and **gamified home gym solution** for individuals f
    (<img width="600" alt="Screenshot 2023-11-30 101503" src=https://github.com/Cappybara12/POLYGON-NFT-MARKETPLACE/assets/122734275/73f596d6-407f-4568-af10-830722622550>)
 
 3) **LLM Gymbro**: Get advice and answers to any kind of queries related to workout, gym, health and fitness that you usually get from people at the gym from our personalized LLM.
+4) 
 (<img width="600" alt="Screenshot 2023-11-30 101503" src=https://github.com/Cappybara12/POLYGON-NFT-MARKETPLACE/assets/122734275/9c9e52b2-85f2-43c3-a9b3-3d047a67f2e4>)
 
 ## Polygon NFT Marketplace
