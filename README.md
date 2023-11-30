@@ -6,14 +6,14 @@
 Develop a **comprehensive** and **gamified home gym solution** for individuals facing barriers like **social anxiety**, **parental restrictions**, **financial limitations** and **time limitations** ensuring they can access quality fitness experiences at home using by also combining **blockchain** with **VR**.
 ## Features
 1) **Polygon Blockchain NFT MARKETPLACE & VR Gym**: The site provides a VR Gym so you get an authentic experience. You can see your friends and what they are doing in the form of 3D avatars inside the virtual gym. Users can buy skins for their characters and different backgrounds in the VR world using NFTs from Polygon-based NFT marketplaces.
-![WhatsApp Image 2023-11-30 at 10 21 09](<img width="600" alt="Screenshot 2023-11-30 101503" src=https://github.com/Cappybara12/POLYGON-NFT-MARKETPLACE/assets/122734275/663ed3ec-54e2-47ec-8f4d-ad8484ba9b1b>)
-![WhatsApp Image 2023-11-30 at 10 20 48](<img width="600" alt="Screenshot 2023-11-30 101503" src=https://github.com/Cappybara12/POLYGON-NFT-MARKETPLACE/assets/122734275/18400514-4db8-4111-83f2-3c20e0cdfcb4>)
+(<img width="600" alt="Screenshot 2023-11-30 101503" src=https://github.com/Cappybara12/POLYGON-NFT-MARKETPLACE/assets/122734275/663ed3ec-54e2-47ec-8f4d-ad8484ba9b1b>)
+(<img width="600" alt="Screenshot 2023-11-30 101503" src=https://github.com/Cappybara12/POLYGON-NFT-MARKETPLACE/assets/122734275/18400514-4db8-4111-83f2-3c20e0cdfcb4>)
 
 2) **Computer Vision Posture Trainer**: The site provides a computer vision trainer that properly evaluates if your exercise form is correct or not, it helps you correct it and only counts a rep if the form is right.
-   ![WhatsApp Image 2023-11-30 at 10 20 17](<img width="600" alt="Screenshot 2023-11-30 101503" src=https://github.com/Cappybara12/POLYGON-NFT-MARKETPLACE/assets/122734275/73f596d6-407f-4568-af10-830722622550>)
+   (<img width="600" alt="Screenshot 2023-11-30 101503" src=https://github.com/Cappybara12/POLYGON-NFT-MARKETPLACE/assets/122734275/73f596d6-407f-4568-af10-830722622550>)
 
 3) **LLM Gymbro**: Get advice and answers to any kind of queries related to workout, gym, health and fitness that you usually get from people at the gym from our personalized LLM.
-![WhatsApp Image 2023-11-30 at 10 19 35](<img width="600" alt="Screenshot 2023-11-30 101503" src=https://github.com/Cappybara12/POLYGON-NFT-MARKETPLACE/assets/122734275/9c9e52b2-85f2-43c3-a9b3-3d047a67f2e4>)
+(<img width="600" alt="Screenshot 2023-11-30 101503" src=https://github.com/Cappybara12/POLYGON-NFT-MARKETPLACE/assets/122734275/9c9e52b2-85f2-43c3-a9b3-3d047a67f2e4>)
 
 ## Polygon NFT Marketplace
 
